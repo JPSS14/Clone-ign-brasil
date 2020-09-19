@@ -5,4 +5,4 @@ Com o objetivo de treinar conceitos de HTML5, CSS, JavaScript e PHP, este reposi
 
 A imagem abaixo ilustra o atual estado do página web desenvolvida até o momento.
 
-![Alt text](GitData/clone-ign-br.png?raw=true "Title")
+![clone-ign-br](https://user-images.githubusercontent.com/40327303/93657871-92f06100-fa0c-11ea-87b5-88154e177574.PNG)
