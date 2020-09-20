@@ -159,3 +159,18 @@ MAIN HEADER
     text-align: justify;
     margin: 10px 0;
 }
+
+/* IMG SLIDE */
+
+.img_slide{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+}
+.img_slide_alternative{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto;
+}

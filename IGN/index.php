@@ -53,6 +53,22 @@ $configSiteName = "IGN";
         <p class="news_article_content">
             As outras extensões do grupo no país, como games, soluções profissionais, música e cinema, permanecerão ativas. A venda do PS4 e PS5 continuará, por exemplo, via distribuidor local -- os consoles da marca não são montados no país desde 2017.
         </p>
+
+        <p class="news_article_content"><strong>PS5 - Primeiras imagens do console</strong></p>
+
+        <div class="img_slide">
+            <img id="main-img" class="main-img" src="<?= $configBase . "/Uploads/ps5-3.jpg" ?>" alt="PS5-1" title="PS5-1">
+            <div class="img_slide_alternative">
+                <?php
+                for ($i = 1; $i < 5; $i++) {
+                ?>
+                    <img class="alternative-img" src="<?= $configBase . "/Uploads/ps5-". $i .".jpg" ?>" alt="PS5" title="PS5" onclick="changeImage('main-img', '<?= $configBase . '/Uploads/ps5-'. $i .'.jpg' ?>');">
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+
         <p class="news_article_content">
             Além disso, a Sony promete que continuará mantendo a operação local "para oferecer todo suporte ao consumidor para os produtos sob a sua responsabilidade comercial de acordo com as leis aplicáveis e sua política de garantia de produtos".
         </p>
@@ -64,6 +80,12 @@ $configSiteName = "IGN";
         </p>
     </article>
 </body>
+
+<script type="text/javascript">
+    function changeImage(object, newImage) {
+        document.getElementById(object).src = newImage;
+    }
+</script>
 
 </html>
 <?php
